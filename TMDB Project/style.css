@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(216, 223, 233);
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(93, 113, 227);
+    padding: 20px 40px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    cursor: pointer;
+}
+header h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+
+}
+header h2 a{
+    color:white
+}
+header h2 a:hover{
+    color: black;
+}
+.listLogo{
+    display: flex;
+}
+
+.searchDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.searchDiv #searchBar{
+    width:300px;
+    padding:5px 10px;
+    border-radius: 15px;
+    border:none;
+    margin-right: 10px;
+    outline:none;
+}
+
+.searchDiv #searchBtn{
+    padding: 5px 7px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(93, 113, 227);
+    color:white;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+.searchDiv #searchBtn:hover{
+    background-color: rgb(235, 139, 21);
+}
+
+.content .links{
+    margin-top:20px;  
+    display: flex;
+    justify-content: center;
+    color: rgb(93, 113, 227);
+}
+
+.links a{
+    margin-right:10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.5s ease;
+    transition: text-shadow 0.5s ease;
+}
+
+
+
+.links a:hover{
+    color:rgb(235, 139, 21);
+}
+
+.movie-cards{
+    margin:50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card{
+    background-color: white;
+    width:200px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin:20px 15px;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(235, 139, 21);
+}
+
+.card img{
+    width:100%;
+}
+.card .description{
+    padding: 10px;
+}
+.card .description .title{
+    font-weight: 600;
+}
+
+.pagination-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-buttons button{
+    background-color: rgb(93, 113, 227);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding:5px 10px;
+    margin-right: 10px;
+    margin-bottom:50px;
+    cursor: pointer;
+    transition: background-color  0.5s ease;
+}
+
+.pagination-buttons button:hover{
+    background-color: rgb(235, 139, 21);
+    color:black;
+}
+
+footer{
+    background-color: rgb(93, 113, 227);
+    height: 100%;
+    display: flex;
+    justify-content: center;   
+}
+footer h4{
+    margin:50px 0px;
+}

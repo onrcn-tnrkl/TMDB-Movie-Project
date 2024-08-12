@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f965d16b35.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>TMDB Project</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1 id="homeLogo">Movies</h1>
+            </div>
+            <div class="listLogo">
+                <h2 id="goFavorites"><a href="favorites.html">Favorite Movies</a></h2>
+                <h2><a href="">Watch List</a></h2>
+            </div>
+        </header>
+        <div class="content">
+            <div class="searchDiv">
+                <input type="text" id="searchBar" required>
+                <button id="searchBtn"><i class="fa-solid fa-magnifying-glass fa-rotate-90"></i></button>
+            </div>
+            <div class="links">
+                <a href="#" id="popular">Popular</a>
+                <a href="#" id="now-playing">Now Playing</a>
+                <a href="#" id="top-rated">Top Rated</a>
+            </div>
+            <div id="movieContainer" class="movie-cards">
+            </div>
+        </div>
+        <div class="pagination-buttons">
+            <button id="back">Back</button>
+            <button id="next">Next</button>
+        </div>
+        <footer>
+            <h4>This is footer</h4>
+        </footer>
+    </div>
+
+</body>
+</html>
