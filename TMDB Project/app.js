@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         top_rated.style.textShadow="none";
 
         button.classList.add('active')
-        button.style.textShadow="0 4px 8px rgba(0, 0, 0, 0.5)";
+        button.style.textShadow="0 4px 8px rgba(255, 255, 255, 0.5)";
     }
     
     popular.addEventListener('click',()=>{

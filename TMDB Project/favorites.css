@@ -1,53 +1,4 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(216, 223, 233);
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-a{
-    text-decoration: none;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(93, 113, 227);
-    padding: 20px 40px;
-}
-
-header h1{
-    font-size: 40px;
-    font-weight: bold;
-    font-style: italic;
-    color: white;
-    cursor: pointer;
-}
-header h2{
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 20px;
-
-}
-header h2 a{
-    color:white
-}
-header h2 a:hover{
-    color: black;
-}
-.listLogo{
-    display: flex;
-}
+@import url("common.css");
 
 .content{
     display: flex;
@@ -73,8 +24,12 @@ header h2 a:hover{
     overflow: hidden;
     height: 100%;
     margin-bottom: 20px;
-    background-color: white;
+    background-color: #134B70;
     cursor: pointer;
+    color:#EEEEEE;
+}
+.content .likedMovies .card:hover{
+    background-color: #134b70a1;
 }
 .card .img{
     width:180px;
@@ -106,16 +61,6 @@ header h2 a:hover{
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-footer{
-    background-color: rgb(93, 113, 227);
-    height: 100%;
-    display: flex;
-    justify-content: center;   
-}
-footer h4{
-    margin:50px 0px;
 }
 
 @media (max-width:620px) {
